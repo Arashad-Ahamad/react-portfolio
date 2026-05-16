@@ -1,8 +1,7 @@
 import { FiGithub, FiLinkedin, FiTwitter, FiMail, FiDownload } from 'react-icons/fi'
+import profilePhoto from '../assets/images/photo.jpg'   
 
 const Hero = () => {
-  const profilePhoto = '/src/assets/photo.jpg'
-  
   const socialLinks = {
     github: 'https://github.com/Arashad-Ahamad',
     linkedin: 'https://www.linkedin.com/in/arashad-ahamad-768935337/',
@@ -51,12 +50,8 @@ const Hero = () => {
         <div className="hero-image">
           <div className="avatar">
             <img 
-              src={profilePhoto} 
+              src={profilePhoto}    
               alt="Arashad Ahamad"
-              onError={(e) => {
-                e.target.style.display = 'none'
-                e.target.parentElement.innerHTML = '<span className="placeholder">👨‍💻</span>'
-              }}
             />
           </div>
         </div>
