@@ -45,7 +45,6 @@ const Skills = () => {
           {/* Frontend Skills Card */}
           <div className="skill-card">
             <div className="skill-card-header">
-              <span className="skill-icon">⚡</span>
               <h3>Frontend Development</h3>
             </div>
             <div className="skill-badges">
@@ -61,7 +60,6 @@ const Skills = () => {
           {/* Tools & Technologies Card */}
           <div className="skill-card">
             <div className="skill-card-header">
-              <span className="skill-icon">🛠️</span>
               <h3>Tools & Technologies</h3>
             </div>
             <div className="skill-badges">
